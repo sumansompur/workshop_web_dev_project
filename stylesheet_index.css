@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400&family=Caveat:wght@400;500&family=Josefin+Slab&family=Lobster&family=Noticia+Text&family=Orbitron&family=Patrick+Hand&family=Raleway:wght@300;400&family=Roboto&display=swap');
+
+.background{
+    background: linear-gradient(15deg, rgb(10,1,90), rgb(0, 47, 255), rgb(0,183,255));
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    padding: 10px 15px 10px 15px;
+    background: rgb(10, 1, 90);
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 50px;
+    color: #00ff22;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Raleway;
+    z-index: 2;
+}
+
+#login_button{
+    background: rgba(44, 255, 1, 0.979);
+    position: relative;
+    padding: 10px 20px 10px, 20px;
+    margin: 10px, 20px, 10px, 20px;
+    border-radius: 25px;
+    float: right;
+    right: 20px;
+    bottom: 5px;
+    width: 100px;
+    height: 40px;
+    border: #00ff22;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.user_button{
+    background: rgb(132, 219, 253);
+}
