@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300;400&family=Caveat:wght@400;500&family=Josefin+Slab&family=Lobster&family=Noticia+Text&family=Orbitron&family=Patrick+Hand&family=Raleway:wght@300;400&family=Roboto&display=swap');
 
+h2{
+    z-index: 3;
+}
+
 .background{
     background: linear-gradient(15deg, rgb(10,1,90), rgb(0, 47, 255), rgb(0,183,255));
     width: 100%;
@@ -43,5 +47,8 @@
 }
 
 .user_button{
-    background: rgb(132, 219, 253);
+    background: white;
+    position: relative;
+    top: 20px;
+    z-index: 3;
 }
