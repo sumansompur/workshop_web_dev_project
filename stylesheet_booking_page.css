@@ -51,7 +51,8 @@ footer{
     border-radius: 25px;
     float: right;
     right: 20px;
-    bottom: 40px;
+    top: 0px;
+    bottom: 20px;
     width: 100px;
     height: 40px;
     border: #00ff22;
@@ -75,7 +76,7 @@ footer{
     font-family: "Caveat";
     color: #f4f818;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 .buttons:hover{
@@ -89,36 +90,28 @@ footer{
     }
 }
 
-.main_content{
+.form_layout{
     z-index: 3;
-    position:relative;
-    top: 50px;
+    position: relative;
+    top: 30px;
+    left: 20px
+}
+.form_headings{
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(255, 206, 70);
+    position: relative;
+    left: 15px;
 }
 
-.three-bsc-buttons{
-    height: 100px;
-    width: 200px;
-    position: relative;
-    top: 175px;
-    background: linear-gradient(10deg, #ff7c02, #fdec00);
+#text_input{
+    background: white;
     border-radius: 25px;
-    border-color: red;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 1000;
-    font-family: "Caveat";
-    color: rgb(255, 0, 0);
-}
-
-#bsc-button1{
+    border-color: black;
+    border-style: ridge;
+    width: 20%;
+    height: 30px;
+    margin: 1px 4px 1px 4px;
+    
     position: relative;
-    left: 25%;
-}
-#bsc-button2{
-    position: relative;
-    left: 35%;
-}
-#bsc-button3{
-    position: relative;
-    left: 45%;
 }
