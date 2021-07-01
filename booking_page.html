@@ -21,6 +21,36 @@
         <form action="#">
             <h3 class="form_headings">Enter passenger name:</h3 >
             <input type="text" name="" id="text_input">
+            <h3 class="form_headings">Enter passenger address:</h3 >
+            <input type="text" name="" id="text_input">
+            <h3 class="form_headings">Gender:</h3 >
+            <label for="Male"><input type="radio" name="Gender" id="radio_input">Male</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Female"><input type="radio" name="Gender" id="radio_input">Female</label>
+            <h3 class="form_headings">Enter passenger age:</h3 >
+            <input type="number" name="" id="text_input">
+            <h3 class="form_headings">Source airport:</h3 >
+                <label for="source-airport">
+                    <select name="airports" id="airport-selector">
+                        <option value="None" selected>None</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kokata"> Kolkata</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </label>
+            <h3 class="form_headings">Destination airport:</h3 >
+                <label for="destination-airport">
+                    <select name="airports" id="airport-selector">
+                        <option value="None" selected>None</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kokata"> Kolkata</option>
+                        <option value="Mumbai">Mumbai</option>
+                    </select>
+                </label>
+            <h3 class="form_headings">Date of travel:</h3 >
+            <input type="date" name="date-of-travel" id="date_input"><br><br>
+            <input type="submit" value="Submit" id=submit>
         </form>
     </div>
 
