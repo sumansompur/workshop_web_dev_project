@@ -90,6 +90,20 @@ footer{
     }
 }
 
+.left-form{
+    position: fixed;
+    float: left;
+    left: 400px;
+    width: 50%;
+}
+
+.right-form{
+    position: relative;
+    float: right;
+    width: 50%;
+    left:100px;
+}
+
 .form_layout{
     z-index: 3;
     position: relative;
@@ -168,9 +182,8 @@ label{
     margin: 10px, 20px, 10px, 20px;
     border-radius: 25px;
     float: left;
-    left: 10px;
-    top: 0px;
-    bottom: 20px;
+    top: 450px;
+    left: 800px;
     width: 100px;
     height: 40px;
     border: #00ff22;
@@ -179,3 +192,4 @@ label{
     font-size: 20px;
     z-index: 2;
 }
+
